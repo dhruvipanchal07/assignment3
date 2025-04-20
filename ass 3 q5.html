@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>responsive navbar</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: lightcyan;
+        }
+        nav{
+            justify-content: space-evenly;
+            background-color: rgb(144, 94, 168);
+            padding: 15px 0;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+        }
+        a{
+            text-decoration: none; 
+            padding: 10px 20px;  
+            color: white;     
+            transition: 0.5s;    
+        }
+        a:hover{
+            background-color: aqua;
+            border-radius: 5px;
+        }
+        li{
+            list-style: none;
+        }
+        ul{
+            display: flex;
+        }
+        @media(max-width:600px)
+        {
+            nav{
+                display: block;
+                text-align: center;
+                background-color: darkcyan;
+            }
+            ul{
+                display: block;
+                text-align: center;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            MY LOGO
+        </div>
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Services</a></li>
+        </ul>
+    </nav>
+</body>
+</html>

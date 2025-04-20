@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>question 1</title>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: aliceblue;
+        }
+        .box{
+            display: grid;
+            grid-template-columns: 200px 200px 200px;
+            grid-template-rows: 100px 100px 100px;
+            gap: 7px;
+            width: 60%;
+        }
+        .grid{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 24px;
+        }
+        .a{background-color: #00aaff;}
+        .b{background-color: #ff4422;}
+        .c{background-color: #0077cc;}
+        .d{background-color: #ffcc33;}
+        .e{background-color: #8855ff;}
+        .f{background-color: #22aa22;}
+        .g{background-color: #ff7744;}
+        .h{background-color: #22bbbb;}
+        .i{background-color: #660000;}
+        
+        
+        @media(max-width:600px){
+            
+            
+            .a{background-color: #ff0000;}
+            .b{background-color: #00ff00;}
+            .c{background-color: #0000ff;}
+            .d{background-color: #ffff00;}
+            .e{background-color: #ff00ff;}
+            .f{background-color: #00ffff;}
+            .g{background-color: #aa00ff;}
+            .h{background-color: #ffaa00;}
+            .i{background-color: #444444;}
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+    <div class="grid a">1</div>
+    <div class="grid b">2</div>
+    <div class="grid c">3</div>
+    <div class="grid d">4</div>
+    <div class="grid e">5</div>
+    <div class="grid f">6</div>
+    <div class="grid g">7</div>
+    <div class="grid h">8</div>
+    <div class="grid i">9</div>
+</div>
+</body>
+</html>
